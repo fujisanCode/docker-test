@@ -11,7 +11,7 @@ public class HelloDocker {
 	
 	@GetMapping("/helloDocker")
 	public String helloDocker() {
-		log.info("helloDocker {}", "argument1");
+		log.error("helloDocker {}", "argument1");
 		return "helloDocker";
 	}
 }

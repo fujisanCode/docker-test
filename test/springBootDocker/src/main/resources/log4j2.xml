@@ -7,7 +7,7 @@
 <Configuration status="WARN" monitorInterval="600">
 
     <Properties> <!-- 配置日志文件输出目录，此配置将日志输出到tomcat根目录下的指定文件夹 -->
-        <Property name="LOG_HOME">${sys:catalina.home}/WebAppLogs/HHServices
+        <Property name="LOG_HOME">./logHome
         </Property>
     </Properties>
 
